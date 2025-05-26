@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plant Details</title>
+</head>
+<body>
+<h1>Plant Details</h1>
+<form action="plant" method="post">
+    <label>Name:</label>
+    <input type="text" name="name" required><br><br>
+
+    <label>Cost:</label>
+    <input type="text" name="cost" required><br><br>
+
+    <label>Type:</label>
+    <input type="text" name="type" required><br><br>
+
+    <label for="soilType">Soil Type:</label>
+    <select name="soilType" id="soilType" required>
+        <option value="Loamy">Loamy</option>
+        <option value="Sandy">Sandy</option>
+        <option value="Clay">Clay</option>
+        <option value="Silty">Silty</option>
+        <option value="Peaty">Peaty</option>
+        <option value="Chalky">Chalky</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit Plant Details">
+</form>
+</body>
+</html>

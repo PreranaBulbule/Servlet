@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessories Details</title>
+</head>
+<body>
+<h1>Accessories Details</h1>
+<form action="accessories" method="post">
+    <label>Name:</label>
+    <input type="text" name="name" required><br><br>
+
+    <label for="type">Type:</label>
+    <select name="type" id="type" required>
+        <option value="Filter">Filter</option>
+        <option value="Light">Light</option>
+        <option value="Heater">Heater</option>
+        <option value="Pump">Pump</option>
+        <option value="Cleaner">Cleaner</option>
+    </select><br><br>
+
+    <label for="warranty">Warranty:</label>
+    <select name="warranty" id="warranty" required>
+        <option value="6 months">6 months</option>
+        <option value="1 year">1 year</option>
+        <option value="2 years">2 years</option>
+    </select><br><br>
+
+    <label>Price:</label>
+    <input type="text" name="price" required><br><br>
+
+    <label>Quantity:</label>
+    <input type="text" name="quantity" required><br><br>
+
+    <input type="submit" value="Submit Accessories Details">
+</form>
+</body>
+</html>
